@@ -22,4 +22,6 @@ AIM: The main AIM of this project is to display the Engine Temperature, Reverse 
 * SW1: To increase the window glass level
 * SW2: To decrease the window glass level
 * SW3: To toggle vehicle direction Forward (or) Reverse
+      In reverse mode, it receives the object distance and displays on the LCD
 * All three switches works on Interrupts.
+#### 16x2 LCD displays Temperature and Vehicle Direction
