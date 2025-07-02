@@ -18,11 +18,14 @@ AIM: The main AIM of this project is to display the Engine Temperature, Reverse 
 ## Workflow
 ### MAIN node
 #### It reads the Engine Temperature through DS18B20 sensor using 1-wire protocol
+#### 16x2 LCD displays Temperature and Vehicle Direction
 #### Three switches connected to this node.
 * SW1: To increase the window glass level
 * SW2: To decrease the window glass level
 * SW3: To toggle vehicle direction Forward (or) Reverse
 
     In reverse mode, it receives the object distance and displays on the LCD
+
+    If object distance is within the predefined limits then it gives an alert via Buzzer
 * All three switches works on Interrupts.
-#### 16x2 LCD displays Temperature and Vehicle Direction
+
