@@ -36,5 +36,5 @@ AIM: The main AIM of this project is to display the Engine Temperature, Reverse 
 ### REVERSE node
 #### It has GP2D12 sensor and this sensor continuously calculates the nearest object distance and sends the data to MAIN node via CAN 
 ### WINDOW node
-### This node has 8 active low LEDs. According to the data received from the MAIN node SW1, it lights up the LEDs
+### This node has 8 active low LEDs. According to the data received from the MAIN node SW1 and SW2, it lights up the LEDs
 
