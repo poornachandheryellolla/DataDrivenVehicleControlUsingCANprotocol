@@ -11,3 +11,8 @@ AIM: The main AIM of this project is to display the Engine Temperature, Reverse 
 * Buzzer
 * Switches
 * USB to UART converter
+## Software Requirements
+* Keil C compiler
+* Flash magic
+* Embedded C programming
+  
