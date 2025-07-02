@@ -8,11 +8,13 @@ AIM: The main AIM of this project is to display the Engine Temperature, Reverse 
 * DS18B20 temperature sensor
 * 16x2 LCD
 * LEDs (8)
-* Buzzer https://iconscout.com/icon/buzzer-3122382_2622099
+* Buzzer
 * Switches
 * USB to UART converter
 ## Software Requirements
 * Keil C compiler
 * Flash magic
 * Embedded C programming
-  
+## Workflow
+### MAIN node
+
