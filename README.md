@@ -17,4 +17,9 @@ AIM: The main AIM of this project is to display the Engine Temperature, Reverse 
 * Embedded C programming
 ## Workflow
 ### MAIN node
-
+#### It reads the Engine Temperature through DS18B20 sensor using 1-wire protocol
+#### Three switches connected to this node.
+SW1: To increase the window glass level
+SW2: To decrease the window glass level
+SW3: To toggle vehicle direction Forward (or) Reverse
+All three switches works on Interrupts.
