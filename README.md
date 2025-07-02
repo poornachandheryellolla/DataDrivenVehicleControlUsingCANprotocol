@@ -21,11 +21,20 @@ AIM: The main AIM of this project is to display the Engine Temperature, Reverse 
 #### 16x2 LCD displays Temperature and Vehicle Direction
 #### Three switches connected to this node.
 * SW1: To increase the window glass level
+
+    Closes window in 8 levels
 * SW2: To decrease the window glass level
+
+    Opens window in 8 levels
 * SW3: To toggle vehicle direction Forward (or) Reverse
 
     In reverse mode, it receives the object distance and displays on the LCD
 
     If object distance is within the predefined limits then it gives an alert via Buzzer
 * All three switches works on Interrupts.
+
+### REVERSE node
+#### It has GP2D12 sensor and this sensor continuously calculates the nearest object distance and sends the data to MAIN node via CAN 
+### WINDOW node
+### This node has 8 active low LEDs. According to the data received from the MAIN node SW1, it lights up the LEDs
 
